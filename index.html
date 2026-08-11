@@ -193,6 +193,8 @@ section{padding:clamp(52px,8vh,96px) 0;border-top:1px solid var(--rule)}
   text-decoration:none;border:1px solid var(--ink);padding:12px 18px;transition:background .16s,color .16s;
 }
 .links a:hover{background:var(--ink);color:var(--paper)}
+.raw{margin:24px 0 0;font-family:var(--f-mono);font-size:12.5px;color:var(--ink-2);display:flex;flex-direction:column;gap:6px}
+.raw span{user-select:all}
 
 footer{border-top:1px solid var(--rule);padding:22px 0 40px}
 footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
@@ -262,7 +264,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
       <div class="two">
         <div>
           <p>I'm a software engineer at <strong>Boeing</strong>, working on embedded real-time systems in C++ and C# on VxWorks and RTX64. The interesting part of that job isn't the feature list, it's the constraint: everything has a fixed budget, and correctness includes finishing on time.</p>
-          <p>That constraint is what I actually enjoy, so I keep chasing it outside work too. Right now that means a <strong>C++ inference engine</strong> with custom CUDA kernels and an OpenAI-compatible serving layer, plus streaming-pipeline work on <strong>Redpanda and Kafka</strong>.</p>
+          <p>That constraint is what I actually enjoy, so I keep chasing it outside work too. Right now that means a <strong>C++ inference engine</strong> with custom CUDA kernels and an OpenAI-compatible serving layer.</p>
           <p>The systems I find most interesting share that DNA: trading infrastructure, ML serving, anything where microseconds and throughput are the product.</p>
         </div>
         <div>
@@ -427,6 +429,11 @@ footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
         <a href="mailto:sundaramritik@gmail.com">Email</a>
         <a href="https://github.com/ritiksundaram" target="_blank" rel="noopener">GitHub</a>
         <a href="https://www.linkedin.com/in/ritik-sundaram-543059209/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <div class="raw">
+        <span>sundaramritik@gmail.com</span>
+        <span>github.com/ritiksundaram</span>
+        <span>linkedin.com/in/ritik-sundaram-543059209</span>
       </div>
     </div>
   </section>
