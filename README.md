@@ -15,7 +15,6 @@ Email and LinkedIn are already in. Remaining:
 
 ## Deploy on GitHub Pages
 
-Same setup Kavin used (`username.github.io`):
 
 ```bash
 # 1. On github.com, create a new PUBLIC repo named exactly:
