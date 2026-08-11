@@ -7,8 +7,7 @@ dependencies. Everything lives in `index.html`.
 
 1. **Project links** — some cards point at the GitHub profile as a fallback.
    Swap in the real repo URLs once those projects are public.
-2. **Boeing start year** — currently `2024 — Present`. Change if that's off.
-3. **Columbia** — add the graduation year in the About spec list if wanted.
+2. **Columbia** — add the graduation year in the About spec list if wanted.
 
 ## Deploy on GitHub Pages
 

@@ -153,9 +153,8 @@ section{padding:clamp(52px,8vh,96px) 0;border-top:1px solid var(--rule)}
 .role .when{font-family:var(--f-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 .role h3{font-family:var(--f-display);font-weight:700;font-stretch:106%;font-size:1.35rem;margin:0 0 4px}
 .role .org{font-family:var(--f-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--signal);margin:0 0 18px}
-.role ul{margin:0;padding:0;list-style:none}
-.role li{position:relative;padding:0 0 12px 22px;color:var(--ink-2)}
-.role li::before{content:"";position:absolute;left:0;top:11px;width:9px;height:1px;background:var(--signal)}
+.role .sum{margin:0;color:var(--ink-2);max-width:62ch}
+.role+.role{margin-top:34px;padding-top:34px;border-top:1px solid var(--rule)}
 
 /* projects */
 .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule)}
@@ -283,16 +282,38 @@ footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
     <div class="wrap">
       <div class="sec-head"><h2>Work</h2><span class="tag">Where the hours go</span></div>
       <div class="role rise">
-        <div class="when">2024 — Present<br>St. Louis, MO</div>
+        <div class="when">2025 — Present<br>St. Louis, MO</div>
         <div>
           <h3>Software Engineer</h3>
           <p class="org">Boeing</p>
-          <ul>
-            <li>Build and maintain real-time C++ services that sustain <b>250,000+ messages per second</b> on VxWorks and RTX64 without dropping a cycle.</li>
-            <li>Write binary protocol parsers and sensor data pipelines against hardware message specifications.</li>
-            <li>Own TCP message handling paths, including hardware command flows and lock-free status checks using <code>std::atomic</code>.</li>
-            <li>Work across C++ and C# on the boundary between real-time software and the tooling that operates it.</li>
-          </ul>
+          <p class="sum">Embedded real-time software in C++ on VxWorks and RTX64.</p>
+        </div>
+      </div>
+
+      <div class="role rise">
+        <div class="when">2024 — 2025<br>Covington, GA</div>
+        <div>
+          <h3>Software Engineer</h3>
+          <p class="org">Takeda Pharmaceuticals</p>
+          <p class="sum">Data infrastructure: high-throughput pipelines and SQL workflows for manufacturing data.</p>
+        </div>
+      </div>
+
+      <div class="role rise">
+        <div class="when">2024<br>Atlanta, GA</div>
+        <div>
+          <h3>Graduate Researcher</h3>
+          <p class="org">Georgia Tech · ViTAL Lab</p>
+          <p class="sum">iOS sensor data collection and ML pipelines for behavioral health research.</p>
+        </div>
+      </div>
+
+      <div class="role rise">
+        <div class="when">2023</div>
+        <div>
+          <h3>Web Developer Intern</h3>
+          <p class="org">OnlyLink Business Solutions</p>
+          <p class="sum">Built and maintained client-facing websites.</p>
         </div>
       </div>
     </div>
