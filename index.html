@@ -21,7 +21,7 @@
   --panel:#F4F6F8;
   --ink:#0D1521;
   --ink-2:#3A4757;
-  --muted:#788595;
+  --muted:#5C6876;
   --rule:#C7CED7;
   --signal:#1B44C8;
   --limit:#C0442B;
@@ -235,7 +235,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
         <p class="eyebrow">St. Louis, MO &nbsp;·&nbsp; C++ &nbsp;·&nbsp; Real-time systems</p>
         <h1>Ritik<span class="sur">Sundaram</span></h1>
         <p class="lede">I write C++ for systems that can't miss a deadline.</p>
-        <p class="sub">Embedded real-time software at Boeing, where a late message is a failed message. Off the clock I'm building an inference engine and tooling for high-throughput streaming pipelines.</p>
+        <p class="sub">Embedded real-time software at Boeing, where a late message is a failed message. Off the clock I'm building an LLM inference engine in C++.</p>
         <div class="cta">
           <a class="btn primary" href="#projects">See what I've built</a>
           <a class="btn ghost" href="mailto:sundaramritik@gmail.com">Get in touch</a>
@@ -360,7 +360,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
             <h3>HN mismatch detector</h3>
             <span class="chip">Shipped</span>
           </div>
-          <p>Flags Hacker News stories whose headline doesn't match the article they link to. Redpanda Connect handles ingestion, and an LLM reasoning service reads each headline–article pair and calls out the mismatch.</p>
+          <p>Flags Hacker News stories whose headline doesn't match the article they link to. Redpanda Connect handles ingestion, and an LLM reasoning service reads each headline and article and calls out the mismatch.</p>
           <div class="stack"><span>Python</span><span>Redpanda Connect</span><span>LLM</span></div>
         </a>
 
@@ -474,7 +474,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
     signal: css.getPropertyValue('--signal').trim() || '#1B44C8',
     limit:  css.getPropertyValue('--limit').trim()  || '#C0442B',
     rule:   css.getPropertyValue('--rule').trim()   || '#C7CED7',
-    muted:  css.getPropertyValue('--muted').trim()  || '#788595'
+    muted:  css.getPropertyValue('--muted').trim()  || '#5C6876'
   };
 
   var N = 150, MAX = 1200, BUDGET = 1000;
