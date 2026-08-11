@@ -1,37 +1,21 @@
-# Personal site
+# ritiksundaram.github.io
 
-Single-file static site. No build step, no dependencies. Just `index.html`.
+Personal site for Ritik Sundaram. Single-file static site — no build step, no
+dependencies. Everything lives in `index.html`.
 
-## Fill these in before you publish
+## To-do before/after publishing
 
-Search `index.html` for `FILL IN`:
-
-Email and LinkedIn are already in. Remaining:
-
-1. **Resume** — drop `resume.pdf` in the repo root, or delete that link in the contact section.
-2. **Project links** — four cards point at your GitHub profile as a fallback. Swap in the real repo URLs once those projects are public.
+1. **Resume** — drop `resume.pdf` in the repo root, or delete that link in the
+   contact section.
+2. **Project links** — some cards point at the GitHub profile as a fallback.
+   Swap in the real repo URLs once those projects are public.
 3. **Boeing start year** — currently `2024 — Present`. Change if that's off.
-4. **Columbia** — add your graduation year in the About spec list if you want it there.
+4. **Columbia** — add the graduation year in the About spec list if wanted.
 
 ## Deploy on GitHub Pages
 
-
-```bash
-# 1. On github.com, create a new PUBLIC repo named exactly:
-#    ritiksundaram.github.io
-
-# 2. Locally:
-mkdir ritiksundaram.github.io && cd ritiksundaram.github.io
-# copy index.html (and resume.pdf) into this folder
-git init
-git add .
-git commit -m "personal site"
-git branch -M main
-git remote add origin https://github.com/ritiksundaram/ritiksundaram.github.io.git
-git push -u origin main
-```
-
-Then repo → **Settings** → **Pages** → Source: `Deploy from a branch`, Branch: `main` / `root`. Save.
+Repo → **Settings** → **Pages** → Source: `Deploy from a branch`,
+Branch: `main` / `root`. Save.
 
 Live at `https://ritiksundaram.github.io` in about a minute.
 
@@ -50,7 +34,7 @@ CNAME www  ritiksundaram.github.io
 
 Then Settings → Pages → Custom domain → enter it → tick "Enforce HTTPS".
 
-## Editing later
+## Editing
 
 Everything is in one file: styles in `<style>`, the hero animation in `<script>`.
 Colors are CSS variables at the top of the style block, so changing the accent is
