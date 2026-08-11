@@ -5,12 +5,10 @@ dependencies. Everything lives in `index.html`.
 
 ## To-do before/after publishing
 
-1. **Resume** — drop `resume.pdf` in the repo root, or delete that link in the
-   contact section.
-2. **Project links** — some cards point at the GitHub profile as a fallback.
+1. **Project links** — some cards point at the GitHub profile as a fallback.
    Swap in the real repo URLs once those projects are public.
-3. **Boeing start year** — currently `2024 — Present`. Change if that's off.
-4. **Columbia** — add the graduation year in the About spec list if wanted.
+2. **Boeing start year** — currently `2024 — Present`. Change if that's off.
+3. **Columbia** — add the graduation year in the About spec list if wanted.
 
 ## Deploy on GitHub Pages
 
